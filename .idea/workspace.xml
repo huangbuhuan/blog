@@ -70,7 +70,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hbh.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="hbh.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/.idea/dictionaries/hbh.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
@@ -105,6 +105,16 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
               <caret line="9" column="32" lean-forward="false" selection-start-line="9" selection-start-column="32" selection-end-line="9" selection-end-column="32" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.conf" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/conf/app.conf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -149,7 +159,6 @@
         <option value="$PROJECT_DIR$/tests/db_test.go" />
         <option value="$PROJECT_DIR$/db_test.go" />
         <option value="$PROJECT_DIR$/main.go" />
-        <option value="$PROJECT_DIR$/conf/app.conf" />
         <option value="$PROJECT_DIR$/controllers/home_controller.go" />
         <option value="$PROJECT_DIR$/models/response.go" />
         <option value="$PROJECT_DIR$/models/category_info.go" />
@@ -162,6 +171,7 @@
         <option value="$PROJECT_DIR$/controllers/topic_controller.go" />
         <option value="$PROJECT_DIR$/models/topic_info.go" />
         <option value="$PROJECT_DIR$/views/home.html" />
+        <option value="$PROJECT_DIR$/conf/app.conf" />
       </list>
     </option>
   </component>
@@ -201,6 +211,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="blog" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="conf" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -665,12 +689,12 @@
       <workItem from="1485885885579" duration="13000" />
       <workItem from="1485886897403" duration="312000" />
       <workItem from="1485887264979" duration="1000" />
-      <workItem from="1485888026311" duration="17674000" />
+      <workItem from="1485888026311" duration="17823000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34335000" />
+    <option name="totallyTimeSpent" value="34484000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="4" y="23" width="1436" height="877" extended-state="0" />
@@ -920,14 +944,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/conf/app.conf">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/default_test.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="345">
@@ -1144,6 +1160,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf/app.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
           <folding />
         </state>
       </provider>
