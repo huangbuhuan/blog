@@ -1,0 +1,16 @@
+{{ template "header"}}
+    <body style="padding-top:70px;">
+    <!-- 导航栏 -->
+    {{ template "navbar" . }}
+
+    <div class="container">
+        <div class="container">
+            <h1>{{ .Topic.Title }}</h1>
+            {{ .Topic.Content }}
+            <a href="/topic/update?tid={{ .Topic.Id }}">编辑</a>
+        </div>
+    </div>
+    <script type="text/javascript" src="https://cdn.staticfile.org/jquery/2.0.3/jquery.min.js"></script>
+    <script type="text/javascript" src="../static/js/bootstrap.min.js"></script>
+    </body>
+</html>

@@ -1,0 +1,54 @@
+{{ template "header"}}
+	<body style="padding-top:70px;">
+		<!-- 导航栏 -->
+		{{ template "navbar" . }}
+		
+		<div class="container">
+			<div class="row">
+					<main class="col-md-8 main-content">
+						{{ range $index, $item := .Topics}}
+							<div class="page-header">
+								<a href="/topic/detail?tid={{ $item.Id }}"><h1>{{ $item.Title }}</h1></a>
+								<h6 class="text-muted">发表于{{ $item.Created }}浏览人数:{{ $item.Views }} 评论人数: {{ $item.ReplyCount }}</h6>
+								<p>{{ $item.Content }}</p>
+							</div>
+						{{ end }}
+					</main>
+					<aside class="col-md-4 sidebar">
+						<div class="widget">
+							<h4 class="title">文章分类</h4>
+							<div class="left community">
+								<ul>
+									{{ range $index, $item := .Categories }}
+										<li><a href="">{{ $item.Title }}</a></li>
+									{{ end }}
+								</ul>
+							</div>
+						</div>
+						<div class="widget">
+							<h4 class="title">近期文章</h4>
+							<div class="left community">
+								<ul>
+									{{ range $index, $item := .Categories }}
+									<li><a href="">{{ $item.Title }}</a></li>
+									{{ end }}
+								</ul>
+							</div>
+						</div>
+						<div class="widget">
+							<h4 class="title">归档</h4>
+							<div class="left community">
+								<ul>
+									{{ range $index, $item := .Categories }}
+									<li><a href="">{{ $item.Title }}</a></li>
+									{{ end }}
+								</ul>
+							</div>
+						</div>
+					</aside>
+			</div>
+		</div>
+		<script type="text/javascript" src="https://cdn.staticfile.org/jquery/2.0.3/jquery.min.js"></script>
+		<script type="text/javascript" src="../static/js/bootstrap.min.js"></script>
+	</body>
+</html>
